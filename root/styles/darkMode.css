@@ -1,0 +1,33 @@
+ body.dark_mode {
+    /* Estilos para el modo oscuro */
+    background-color: #1a1a1a;
+    color: #ffffff;
+  }
+  
+.dark_mode>main>section>ul>li>a{
+    color: white;
+}
+.dark_mode h1{
+  color: #ffffff;
+  font-weight: bold;
+}
+.grid{
+  color: #1a1a1a;
+}
+
+.dark_mode>main>section>ul>li:hover {
+  border-bottom: 2px solid white;
+  font-weight: bold; 
+  color: white;
+  cursor: pointer;
+}
+
+.dark_mode>header>div>button{
+  background-color: white;
+  color: black;
+}
+
+.colortitle{
+  color: white;
+}
+

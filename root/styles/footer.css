@@ -1,0 +1,80 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #306BB3;
+    width: 100%;
+    height: 10%;
+    color: white;
+    align-items: center;
+    padding: 2%;
+}
+
+.redes {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.Logo {
+    display: flex;
+    align-self: flex-start;
+}
+
+.social_media {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+    width: 20%;
+}
+
+.social_media a {
+    color: white;
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.informacion{
+    padding: 5%;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.listinf{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+.listinf a{
+    color: white;
+}
+
+.titulo{
+    font-weight: bolder;
+}
+.fa-brands {
+    cursor: pointer;
+    /* background: white;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    -webkit-box-shadow: -4px -1px 43px 1px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: -4px -1px 43px 1px rgba(0, 0, 0, 0.25;
+    box-shadow: -4px -1px 43px 1px rgba(0, 0, 0, 0.25); */
+}
