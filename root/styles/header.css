@@ -50,8 +50,9 @@ header {
 }
 
 button{
-    color: #306BB3;
-    padding: 8px 25px;
+    color: white;
+    background-color: rgb(49, 48, 48);
+    padding: 8px 20px;
     border-radius: 8px;
     cursor: pointer;
 }

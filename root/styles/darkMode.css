@@ -1,5 +1,4 @@
  body.dark_mode {
-    /* Estilos para el modo oscuro */
     background-color: #1a1a1a;
     color: #ffffff;
   }
@@ -22,9 +21,30 @@
   cursor: pointer;
 }
 
+/* .dark_mode>main>section>ul>li{
+  border-bottom: 2px solid gray;
+  color: gray;
+} */
+
 .dark_mode>header>div>button{
   background-color: white;
-  color: black;
+  color: #306BB3;
+}
+
+.dark_mode .active{
+  color: white;
+  font-weight: bold;
+  border-bottom: 2px solid white;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.dark_mode .inactive {
+  color: rgb(169, 165, 165);
+  border-bottom: 1px solid ;
+  font-weight:normal;
+  width: 100%;
 }
 
 .colortitle{
